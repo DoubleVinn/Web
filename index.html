@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Navigasi</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="profile-info">
+            <img src="pp.jpg" alt="Foto Profil" class="profil-foto">
+            <div class="profile-text">
+                <p class="profile-name">Sylvain Tompunu</p>
+                <p class="student-id">220211060345</p>
+            </div>
+        </div>
+        <ul>
+            <li><a href="#" onclick="showContent('beranda')">Beranda</a></li>
+            <li><a href="#" onclick="showContent('tentang')">Tentang Saya</a></li>
+            <li><a href="#" onclick="showContent('kontak')">Kontak</a></li>
+        </ul>
+    </div>
+
+    <div class="content" id="beranda-content">
+        <h1>Beranda</h1>
+        <p>Selamat Datang Di Website Saya</p>
+    </div>
+    <div class="content" id="tentang-content">
+        <h1>Tentang Saya</h1>
+        <dl>
+            <dt>Nama:</dt>
+            <dd>Sylvain Tompunu</dd>
+            
+            <dt>NIM:</dt>
+            <dd>220211060345</dd>
+            
+            <dt>Universitas:</dt>
+            <dd>Sam Ratulangi</dd>
+            
+            <dt>Fakultas:</dt>
+            <dd>Teknik Elektro</dd>
+            
+            <dt>Prodi:</dt>
+            <dd>Informatika</dd>
+        </dl>
+    </div>
+    <div class="content" id="kontak-content">
+        <h1>Kontak</h1>
+        <dl>
+            <dt>Nomor HP:</dt>
+            <dd>081356618572</dd>
+            
+            <dt>Email:</dt>
+            <dd>sylvaintompunu@gmail.com</dd>
+        </dl>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color: red;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.profil-foto {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin: 10px;
+}
+
+.profile-info {
+    display: flex; /* Mengatur tata letak elemen-elemen dalam profile-info */
+    align-items: center;
+    color: white;
+}
+
+.profile-text {
+    margin-left: 10px; /* Memberi jarak antara teks dan gambar */
+}
+
+.profile-name {
+    font-size: 1.2em; /* Besar teks nama */
+}
+
+.student-id {
+    font-size: 0.8em; /* Besar teks nomor mahasiswa */
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+}
+
+.navbar ul li {
+    padding: 10px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+
+.content {
+    padding: 20px;
+}
+/* ... kode lainnya ... */
+
+.content dl {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.content dt {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.content dd {
+    margin-left: 20px;
+    margin-top: 0;
+}
+
+/* ... kode lainnya ... */
